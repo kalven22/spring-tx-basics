@@ -2,11 +2,11 @@ package config;
 
 public class Product {
     private String name;
-    private int id;
+    private int age;
 
-    public Product(String name, int id) {
+    public Product(String name, int age) {
         this.name = name;
-        this.id = id;
+        this.age = age;
     }
 
     public String getName() {
@@ -17,11 +17,11 @@ public class Product {
         this.name = name;
     }
 
-    public int getId() {
-        return id;
+    public int getAge() {
+        return age;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.age = id;
     }
 }
